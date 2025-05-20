@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!Esta parte es mi encabezado, donde vamos a encontrar el titulo de mi pagina web y el icono> 
+    <title>"Mi portafolio web personal"</title>
+    <link rel="icon" href="/Imagenes/logo de mi portafolio.png" type="image/x-icon">
+</head>
+<body>
+    <!En esta parte se encuentra el cuerpo de mi pagina web, donde vamos a encontrar>
+  <H1>Cerezo Pino Ronny Josue</H1>
+  <br/>
+    <p>"Comprometido con el futuro digital y la eficiencia tecnológica"</p>
+    <br/>
+    <img src="/Imagenes/Imagen personal.jpeg" alt="Imagen personal ">
+    <br/>
+    <nav>
+        <a href="#Sobre mi" > "Mi descripcion"</a>
+        <br/>
+        <a href="#Mis intereses">"Mis intereses"</a>
+        <br/>
+        <a href="#Mis logros"> "Mis logros"</a>
+        <br/>
+        <a href="#Tabla de habilidades"> "Tabla de habilidades"</a>
+        <br/>
+        <a href="#Audio de mi personalidad"> "Audio de mi personalidad"</a>
+        <br/>
+        <a href="#Contacto"> "Contacto"</a>
+    </nav>
+    <section id="Sobre mi">
+        <h3>Descripcion personal</h3>
+        <p> <mark><strong>Soy un chico de 21 años</strong></mark>, con estatura media y una complexión atlética, ya que siempre trato de mantenerme activo y cuidar mi salud. Mi cabello es corto y oscuro, y mis ojos son oscuros, reflejando una personalidad tranquila y accesible. <mark> <strong>Me gusta que la gente se sienta cómoda en mi presencia</strong></mark>, por lo que trato de ser cercano y amable,<em> <strong>también puedo ser serio cuando la situación lo requiere.</strong></em>
+Me considero una persona responsable, determinada y muy enfocada en mis objetivos. <mark>Soy alguien que valora profundamente las relaciones auténticas y el trabajo en equipo</mark>, aunque también me siento cómodo tomando decisiones por mi cuenta cuando es necesario. <strong>Tengo una gran determinación para enfrentar desafíos,</strong> y no me gusta rendirme ante los obstáculos. Además, disfruto de un buen momento de humor, siempre tratando de hacer reír a quienes están a mi alrededor sin perder el respeto por los demás.
+En mi trabajo, <em>siempre busco la excelencia y me esfuerzo por dar lo mejor de mí en cada proyecto.</em> Me considero una persona organizada y sé cómo gestionar mi tiempo para equilibrar tanto mis compromisos laborales como mis intereses personales.
+Fuera del trabajo, también busco mejorar mi desarrollo personal. <mark>Me  gusta mucho el fútbol</mark>,  comer y explorar nuevas formas de crecimiento. Siempre trato de ser un amigo leal y un compañero confiable. <strong><em><mark>Mi objetivo es seguir aprendiendo, aprovechar las oportunidades que la vida me ofrece</mark></em></strong> y contribuir de manera significativa a los proyectos en los que participo, especialmente aquellos que puedan tener un impacto positivo en la sociedad.</p>
+    </section>
+    <section id="Mis intereses">
+        <h3>Mis intereses</h3>
+    <ul type="square">
+        <li>Obtener un aprendizaje continuo y desarrollo personal </li>
+        <li>aprender sobre la tecnología y automatización</li>
+        <li>Emprender un negocio</li>
+    </ul>
+    </section >
+    <section id="Mis logros">
+    <h3>Mis logros </h3>
+    <ol type="i">
+        <li>Culminación de la primaria</li>
+        <li>Terminación del bachillerato</li>
+        <li>Ingreso a la universidad</li>
+    </ol>
+    </section>
+    <section id="Tabla de habilidades">
+        <h3>Tabla de habilidades</h3>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Word</td>
+                <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>Ingles</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>Trabajo en equipo</td>
+                    <td>Excelente</td>
+                </tr>
+                <tr>
+                    <td>Puntualidad</td>
+                    <td>Excelente</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Dispuesto a obtener un mayor conocimiento</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section id="Audio de mi personalidad">
+        <h3>Audio sobre mi personalidad</h3>
+        <audio controls>
+            <source src="Audios/Audio de mi personalidad.aac" type="audio/mpeg">
+        </audio>
+    </section>
+    <section id="Contacto">
+        <h3>Contacto</h3>
+        <form>
+            <label for="nombre"> Nombre y Apellido </label> 
+            <input type="text" id="nombre" required>
+            <br/>
+            <label for="Fecha de nacimiento"> Fecha de nacimiento </label>
+            <input type="date" id="Fecha de nacimiento" required>
+            <br/>
+            <label for="edad"> Edad </label>
+            <input type="number" id="edad" required>
+            <br/>
+            <label for="correo"> Correo </label>
+            <input type="email" id="correo"  required> 
+            <br/>
+            <label for="genero"> Genero</label>
+            <select name="genero" id="genero" required>
+                <option value="masculino"> Masculino </option>
+                <option value="femenino"> Femenino </option>
+            </select>
+            <br/>
+            <label for=""> Intereses. </label>
+            <br/>
+            <input type="checkbox" name="intereses" value="programacion"> 
+            Programacion 
+            <br/>
+            <input type="checkbox" name="interes" value="videojuegos"> 
+            Videojuegos
+            <br/>
+            <input type="checkbox" name="interes" value="musica">
+            Musica 
+            <br/>
+            <label for="comentarios">Comentarios:</label>
+            <br/>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+            <br/>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy;2025 Realizado por Ronny Josue Cerezo Pino.</p>
+        <p>
+            <a href="https://www.facebook.com/ronny.cerezo.73" target="_blank"> Facebook </a>
+        </p>
+    </footer>
+</body>
+</html> 
